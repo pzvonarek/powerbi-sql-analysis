@@ -1,0 +1,7 @@
+SELECT TOP (1000) [ID_location]
+      ,[ID_date]
+      ,[ID_customer]
+      ,[ID_product]
+      ,[Price]
+      ,[Quantity_sold]
+  FROM [SPPI_V4].[dbo].[sale]
