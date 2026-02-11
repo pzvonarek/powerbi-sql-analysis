@@ -10,6 +10,7 @@ The project includes:
 The data warehouse is built on Microsoft SQL Server, while Power BI is used to visualize sales performance across different dimensions.
 
 ##Data Model
+
 The data warehouse follows a star schema design, with a central sales fact table connected to multiple dimension tables (Customer, Product, Date, and Location).
 ![Star Schema Data Model](screenshots/data_model_star_schema.png)
 
